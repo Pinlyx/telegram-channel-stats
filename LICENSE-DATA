@@ -1,0 +1,15 @@
+Data license for tgstats/data/telegram-channel-reach-2026.csv
+
+The file is released under the Creative Commons Attribution 4.0 International
+license (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt it for any purpose, including commercially, as long as
+you give appropriate credit, link to the license and indicate if changes were
+made.
+
+Attribution: Pinlyx, Telegram Channel Reach 2026
+https://pinlyx.com/research/telegram-channel-reach-2026
+
+The study measured the Pinlyx Data API catalogue of 3,205,346 public Telegram
+channels. Reach is average views per post divided by subscribers. Only the
+code of this repository is covered by the MIT license in LICENSE.

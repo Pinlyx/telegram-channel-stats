@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Golang news - Telegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible"
+     content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    
+<meta property="og:title" content="Golang news">
+<meta property="og:image" content="https://cdn.example.invalid/img.jpg">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Golang news channel">
+
+<meta property="twitter:title" content="Golang news">
+<meta property="twitter:image" content="https://cdn.example.invalid/img.jpg">
+<meta property="twitter:site" content="@Telegram">
+
+<meta property="al:ios:app_store_id" content="686449807">
+<meta property="al:ios:app_name" content="Telegram Messenger">
+<meta property="al:ios:url" content="tg://resolve?domain=golang_news">
+
+<meta property="al:android:url" content="tg://resolve?domain=golang_news">
+<meta property="al:android:app_name" content="Telegram">
+<meta property="al:android:package" content="org.telegram.messenger">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Telegram">
+<meta name="twitter:description" content="Golang news channel
+">
+
+    <link rel="prev" href="/s/golang_news?before=122">
+<link rel="canonical" href="/s/golang_news?before=142">
+
+    
+    <link rel="icon" type="image/svg+xml" href="//telegram.org/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="//telegram.org/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//telegram.org/img/favicon-16x16.png">
+<link rel="alternate icon" href="//telegram.org/img/favicon.ico" type="image/x-icon" />
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/widget-frame.css?75" rel="stylesheet" media="screen">
+    <link href="//telegram.org/css/telegram-web.css?39" rel="stylesheet" media="screen">
+    
+    <style>        .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3391d4 0px, #3391d4 5px, #7dd3f0 5px, #7dd3f0 10px);
+          --user-accent-color: #3391d4;
+          --user-background: #3391d41f;
+        }        .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27a910 0px, #27a910 5px, #a7dc57 5px, #a7dc57 10px);
+          --user-accent-color: #27a910;
+          --user-background: #27a9101f;
+        }        .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e0802b 0px, #e0802b 5px, #fac534 5px, #fac534 10px);
+          --user-accent-color: #e0802b;
+          --user-background: #e0802b1f;
+        }        .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #e15052 0px, #e15052 5px, #f9ae63 5px, #f9ae63 10px);
+          --user-accent-color: #e15052;
+          --user-background: #e150521f;
+        }        .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a05ff3 0px, #a05ff3 5px, #f48fff 5px, #f48fff 10px);
+          --user-accent-color: #a05ff3;
+          --user-background: #a05ff31f;
+        }        .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #27acce 0px, #27acce 5px, #82e8d6 5px, #82e8d6 10px);
+          --user-accent-color: #27acce;
+          --user-background: #27acce1f;
+        }        .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #dd4371 0px, #dd4371 5px, #ffbe9f 5px, #ffbe9f 10px);
+          --user-accent-color: #dd4371;
+          --user-background: #dd43711f;
+        }        .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #247bed 0px, #247bed 5px, #f04856 5px, #f04856 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #247bed;
+          --user-background: #247bed1f;
+        }        .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #d67722 0px, #d67722 5px, #1ea011 5px, #1ea011 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #d67722;
+          --user-background: #d677221f;
+        }        .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #179e42 0px, #179e42 5px, #e84a3f 5px, #e84a3f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #179e42;
+          --user-background: #179e421f;
+        }        .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #2894af 0px, #2894af 5px, #6fc456 5px, #6fc456 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #2894af;
+          --user-background: #2894af1f;
+        }        .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #0c9ab3 0px, #0c9ab3 5px, #ffad95 5px, #ffad95 10px, #ffe6b5 10px, #ffe6b5 15px);
+          --user-accent-color: #0c9ab3;
+          --user-background: #0c9ab31f;
+        }        .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #7757d6 0px, #7757d6 5px, #f79610 5px, #f79610 10px, #ffde8e 10px, #ffde8e 15px);
+          --user-accent-color: #7757d6;
+          --user-background: #7757d61f;
+        }        .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #1585cf 0px, #1585cf 5px, #f2ab1d 5px, #f2ab1d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #1585cf;
+          --user-background: #1585cf1f;
+        }        body.dark .user-color-12, html.theme_dark .user-color-12 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+          --user-accent-color: #52bfff;
+          --user-background: #52bfff1f;
+        }        body.dark .user-color-10, html.theme_dark .user-color-10 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+          --user-accent-color: #a7eb6e;
+          --user-background: #a7eb6e1f;
+        }        body.dark .user-color-8, html.theme_dark .user-color-8 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+          --user-accent-color: #ecb04e;
+          --user-background: #ecb04e1f;
+        }        body.dark .user-color-7, html.theme_dark .user-color-7 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+          --user-accent-color: #ff9380;
+          --user-background: #ff93801f;
+        }        body.dark .user-color-9, html.theme_dark .user-color-9 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+          --user-accent-color: #c697ff;
+          --user-background: #c697ff1f;
+        }        body.dark .user-color-11, html.theme_dark .user-color-11 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+          --user-accent-color: #40d8d0;
+          --user-background: #40d8d01f;
+        }        body.dark .user-color-13, html.theme_dark .user-color-13 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+          --user-accent-color: #ff86a6;
+          --user-background: #ff86a61f;
+        }        body.dark .user-color-14, html.theme_dark .user-color-14 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3fa2fe;
+          --user-background: #3fa2fe1f;
+        }        body.dark .user-color-15, html.theme_dark .user-color-15 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #ff905e;
+          --user-background: #ff905e1f;
+        }        body.dark .user-color-16, html.theme_dark .user-color-16 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #66d364;
+          --user-background: #66d3641f;
+        }        body.dark .user-color-17, html.theme_dark .user-color-17 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-18, html.theme_dark .user-color-18 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+          --user-accent-color: #22bce2;
+          --user-background: #22bce21f;
+        }        body.dark .user-color-19, html.theme_dark .user-color-19 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+          --user-accent-color: #9791ff;
+          --user-background: #9791ff1f;
+        }        body.dark .user-color-20, html.theme_dark .user-color-20 {
+          --user-line-gradient: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+          --user-accent-color: #3da6eb;
+          --user-background: #3da6eb1f;
+        }.user-color-6, .user-color-4, .user-color-2, .user-color-0, .user-color-1, .user-color-3, .user-color-5,   .user-color-default {
+    --user-accent-color: var(--accent-color);
+    --user-accent-background: var(--accent-background);
+    --user-line-gradient: linear-gradient(45deg, var(--accent-color), var(--accent-color));
+  }</style>
+  </head>
+  <body class="widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode no_transitions">
+    <div class="tgme_background_wrap">
+      <canvas id="tgme_background" class="tgme_background" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
+      <div class="tgme_background_pattern"></div>
+    </div>
+    <header class="tgme_header search_collapsed">
+  <div class="tgme_container">
+    <div class="tgme_header_search">
+      <form class="tgme_header_search_form" action="/s/golang_news">
+        
+        <input class="tgme_header_search_form_input js-header_search" placeholder="Search" name="q" autocomplete="off" value="" />
+        <a href="/s/golang_news" class="tgme_header_search_form_clear"></a>
+      </form>
+    </div>
+    <div class="tgme_header_right_column">
+      <section class="tgme_right_column">
+        <div class="tgme_channel_info">
+          <div class="tgme_channel_info_header">
+            <i class="tgme_page_photo_image bgcolor2" data-content="Gn"><img src="https://cdn.example.invalid/img.jpg"></i>
+            <div class="tgme_channel_info_header_title_wrap">
+              <div class="tgme_channel_info_header_title"><span dir="auto">Golang news</span></div>
+              <div class="tgme_channel_info_header_labels"></div>
+            </div>
+            <div class="tgme_channel_info_header_username"><a href="https://t.me/golang_news">@golang_news</a></div>
+          </div>
+          <div class="tgme_channel_info_counters"><div class="tgme_channel_info_counter"><span class="counter_value">119</span> <span class="counter_type">subscribers</span></div><div class="tgme_channel_info_counter"><span class="counter_value">2</span> <span class="counter_type">photos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">131</span> <span class="counter_type">links</span></div></div>
+          <div class="tgme_channel_info_description">Golang news channel</div>
+          <a class="tgme_channel_download_telegram" href="//telegram.org/dl?tme=5930f5347378c7b908_2282581651068941804">
+            Download Telegram
+          </a>
+          <div class="tgme_footer">
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/faq">About</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/blog">Blog</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/apps">Apps</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//core.telegram.org/">Platform</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="tgme_header_info">
+      <a class="tgme_channel_join_telegram" href="//telegram.org/dl?tme=5930f5347378c7b908_2282581651068941804">
+        Join
+      </a>
+      <a class="tgme_header_link" href="https://t.me/golang_news">
+        <i class="tgme_page_photo_image bgcolor2" data-content="Gn"><img src="https://cdn.example.invalid/img.jpg"></i>
+        <div class="tgme_header_title_wrap">
+          <div class="tgme_header_title"><span dir="auto">Golang news</span></div>
+          <div class="tgme_header_labels"></div>
+        </div>
+        <div class="tgme_header_counter">119 subscribers</div>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="tgme_main" data-url="/golang_news">
+  <div class="tgme_container">
+    <section class="tgme_channel_history js-message_history">
+      <div class="tgme_widget_message_centered js-messages_more_wrap"><a href="/s/golang_news?before=122" class="tme_messages_more js-messages_more" data-before="122"></a></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/122">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Introducing Armor <a href="https://github.com/labstack/armor" target="_blank" rel="noopener">https://github.com/labstack/armor</a> <a href="?q=%23golang">#golang</a></div><a class="tgme_widget_message_link_preview" href="https://github.com/labstack/armor">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">GitHub</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn.example.invalid/img.jpg');padding-top:50%"></i>
+  <div class="link_preview_title" dir="auto">GitHub - labstack/armor: Uncomplicated, modern HTTP server</div>
+  <div class="link_preview_description" dir="auto">Uncomplicated, modern HTTP server. Contribute to labstack/armor development by creating an account on GitHub.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">924</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/122"><time datetime="2016-09-29T08:08:18+00:00" class="time">08:08</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/123">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">myLG<br/>My looking glass is an open source software utility which combines the functions of the different network probes in one network diagnostic tool.<br/><a href="http://mylg.io/" target="_blank" rel="noopener">http://mylg.io/</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">851</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/123"><time datetime="2016-09-29T19:19:29+00:00" class="time">19:19</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/124">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Subtests and Sub-benchmarks in Go testing <a href="?q=%23golang">#golang</a> <a href="https://blog.golang.org/subtests" target="_blank" rel="noopener">https://blog.golang.org/subtests</a> | <a href="http://4gophers.com/" target="_blank" rel="noopener">http://4gophers.com</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">840</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/124"><time datetime="2016-10-04T17:53:41+00:00" class="time">17:53</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/125">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Wow&#33; Our community is growing&#33; Today we reached 100 members <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29AA1.png')"><b>⚡️</b></i><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F8E89.png')"><b>🎉</b></i><br/>Thanks for staying with us&#33;</div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">862</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/125"><time datetime="2016-10-04T17:56:12+00:00" class="time">17:56</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/126">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Introducing HTTP Tracing, new in Go 1.7 <br/><a href="https://blog.golang.org/http-tracing" target="_blank" rel="noopener">https://blog.golang.org/http-tracing</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">898</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/126"><time datetime="2016-10-05T04:17:08+00:00" class="time">04:17</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/127">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://scotch.io/tutorials/create-a-single-page-app-with-go-echo-and-vue" target="_blank" rel="noopener">https://scotch.io/tutorials/create-a-single-page-app-with-go-echo-and-vue</a></div><a class="tgme_widget_message_link_preview" href="https://scotch.io/tutorials/create-a-single-page-app-with-go-echo-and-vue">
+  <i class="link_preview_right_image" style="background-image:url('https://cdn.example.invalid/img.jpg')"></i>
+  <div class="link_preview_site_name accent_color" dir="auto">Digitalocean</div>
+  
+  <div class="link_preview_title" dir="auto">Create a Single Page App With Go, Echo, and Vue  | DigitalOcean</div>
+  <div class="link_preview_description" dir="auto">Create a speedy single page application using the power of Go and VueJS</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">933</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/127"><time datetime="2016-10-07T12:47:49+00:00" class="time">12:47</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/128">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">If you not already using <a href="?q=%23Sourcegraph">#Sourcegraph</a><br/><a href="https://text.sourcegraph.com/sourcegraph-the-best-way-to-read-code-just-got-better-2094def0e553#.h2wf1iat5" target="_blank" rel="noopener">https://text.sourcegraph.com/sourcegraph-the-best-way-to-read-code-just-got-better-2094def0e553#.h2wf1iat5</a></div><a class="tgme_widget_message_link_preview" href="https://text.sourcegraph.com/sourcegraph-the-best-way-to-read-code-just-got-better-2094def0e553">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Plain Text - The Official Sourcegraph Blog</div>
+  
+  <div class="link_preview_title" dir="auto">Sourcegraph: the best way to read code just got&nbsp;better</div>
+  <div class="link_preview_description" dir="auto">Today, we’re announcing a new edition of Sourcegraph that makes it even faster and easier to answer your everyday programming questions.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">995</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/128"><time datetime="2016-10-08T06:32:54+00:00" class="time">06:32</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/129">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">This is a short collection of tips and tricks showing how Docker can be useful when working with Go code.<br/><a href="https://blog.docker.com/2016/09/docker-golang/" target="_blank" rel="noopener">https://blog.docker.com/2016/09/docker-golang/</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">964</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/129"><time datetime="2016-10-10T12:40:00+00:00" class="time">12:40</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/130">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Go Fragments - a collection of annotated Go programs examples  <a href="http://www.gofragments.net/" target="_blank" rel="noopener">http://www.gofragments.net</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.02K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/130"><time datetime="2016-10-10T19:10:40+00:00" class="time">19:10</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/131">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Here are the slides from Gopher Puzzlers talk from the <a href="?q=%23golangio">#golangio</a> meetup tonight. <br/><a href="http://talks.godoc.org/github.com/davecheney/presentations/gopher-puzzlers.slide" target="_blank" rel="noopener">http://talks.godoc.org/github.com/davecheney/presentations/gopher-puzzlers.slide</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.03K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/131"><time datetime="2016-10-12T08:07:37+00:00" class="time">08:07</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/132">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://twitter.com/xavi_xsb/status/790857176034242560/photo/1" target="_blank" rel="noopener">https://twitter.com/xavi_xsb/status/790857176034242560/photo/1</a></div><a class="tgme_widget_message_link_preview" href="https://twitter.com/xavi_xsb/status/790857176034242560/photo/1">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Twitter</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn.example.invalid/img.jpg');padding-top:73%"></i>
+  <div class="link_preview_title" dir="auto">XSB</div>
+  <div class="link_preview_description" dir="auto">“Future programming languages (intent to learn). Source: O&#39;Reilly 2016 European Software Development Salary Survey”</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.32K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/132"><time datetime="2016-10-26T06:42:57+00:00" class="time">06:42</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/133">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="http://fuckinggodateformat.com/" target="_blank" rel="noopener">http://fuckinggodateformat.com/</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.3K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/133"><time datetime="2016-10-26T06:48:43+00:00" class="time">06:48</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/134">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Talks &amp; articles from dotGo 2016<br/><a href="http://www.thedotpost.com/conference/dotgo-2016" target="_blank" rel="noopener">http://www.thedotpost.com/conference/dotgo-2016</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.36K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/134"><time datetime="2016-10-28T05:39:47+00:00" class="time">05:39</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/135">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://habrahabr.ru/company/mailru/blog/314804/" target="_blank" rel="noopener">https://habrahabr.ru/company/mailru/blog/314804/</a></div><a class="tgme_widget_message_link_preview" href="https://habrahabr.ru/company/mailru/blog/314804">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Хабр</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn.example.invalid/img.jpg');padding-top:52.5%"></i>
+  <div class="link_preview_title" dir="auto">50 оттенков Go: ловушки, подводные камни и распространённые ошибки новичков</div>
+  <div class="link_preview_description" dir="auto">Go - простой и забавный язык. Но в нём, как и в любых других языках, есть свои подводные камни. И во многих из них сам Go не виноват. Одни - это естественное с...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.47K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/135"><time datetime="2016-11-16T02:24:34+00:00" class="time">02:24</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/136">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://blog.golang.org/go-fonts" target="_blank" rel="noopener">https://blog.golang.org/go-fonts</a></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.54K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/136"><time datetime="2016-11-17T07:37:51+00:00" class="time">07:37</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/137">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://twitter.com/joncalhoun/status/799602334452039684" target="_blank" rel="noopener">https://twitter.com/joncalhoun/status/799602334452039684</a></div><a class="tgme_widget_message_link_preview" href="https://twitter.com/joncalhoun/status/799602334452039684">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Twitter</div>
+  
+  <div class="link_preview_title" dir="auto">Jon Calhoun</div>
+  <div class="link_preview_description" dir="auto">“Great resources for learning #golang #programming and #webdev - https://t.co/9G5QGe9qpV @goinggodotnet @Todd_McLeod @davecheney @learngolang”</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.83K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/137"><time datetime="2016-11-18T23:48:56+00:00" class="time">23:48</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/138">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">New free ebook <a href="https://github.com/thewhitetulip/web-dev-golang-anti-textbook/blob/master/README.md" target="_blank" rel="noopener">https://github.com/thewhitetulip/web-dev-golang-anti-textbook/blob/master/README.md</a></div><a class="tgme_widget_message_link_preview" href="https://github.com/thewhitetulip/web-dev-golang-anti-textbook/blob/master/README.md">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">GitHub</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn.example.invalid/img.jpg');padding-top:50%"></i>
+  <div class="link_preview_title" dir="auto">web-dev-golang-anti-textbook/README.md at master · thewhitetulip/web-dev-golang-anti-textbook</div>
+  <div class="link_preview_description" dir="auto">Learn how to write webapps without a framework in Go. - thewhitetulip/web-dev-golang-anti-textbook</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">2.07K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/138"><time datetime="2017-04-05T17:12:32+00:00" class="time">17:12</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/139">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://www.scaledrone.com/blog/posts/creating-an-api-client-in-go" target="_blank" rel="noopener">https://www.scaledrone.com/blog/posts/creating-an-api-client-in-go</a></div><a class="tgme_widget_message_link_preview" href="https://scaledrone.com/blog/posts/creating-an-api-client-in-go">
+  <i class="link_preview_right_image" style="background-image:url('https://cdn.example.invalid/img.jpg')"></i>
+  <div class="link_preview_site_name accent_color" dir="auto">Scaledrone Blog</div>
+  
+  <div class="link_preview_title" dir="auto">Creating an API Client in Go</div>
+  <div class="link_preview_description" dir="auto">When consuming a REST API it&#39;s a good practice to write an API Client (API Wrapper) for yourself or your own REST API, so other users could more easily access it. Fortunately, Go provides everything we need out of the box. The net/http library combined with…</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">2.29K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/139"><time datetime="2017-04-17T15:32:01+00:00" class="time">15:32</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="golang_news/140">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://golangbot.com/strings/" target="_blank" rel="noopener">https://golangbot.com/strings/</a></div><a class="tgme_widget_message_link_preview" href="https://golangbot.com/strings">
+  <i class="link_preview_right_image" style="background-image:url('https://cdn.example.invalid/img.jpg')"></i>
+  <div class="link_preview_site_name accent_color" dir="auto">golangbot</div>
+  
+  <div class="link_preview_title" dir="auto">Strings</div>
+  <div class="link_preview_description" dir="auto">A string is a slice of bytes in Go. The == operator is used to compare two strings for equality. RuneCountInString function is used to find the length of the string.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">2.23K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/140"><time datetime="2017-05-07T03:54:47+00:00" class="time">03:54</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap user-color-12 js-widget_message" data-post="golang_news/141">
+  <div class="tgme_widget_message_user"><a href="https://t.me/golang_news"><i class="tgme_widget_message_user_photo bgcolor2" data-content="G"><img src="https://cdn.example.invalid/img.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/golang_news"><span dir="auto">Golang news</span></a></div>
+<div class="tgme_widget_message_forwarded_from accent_color">Forwarded from&nbsp;<a class="tgme_widget_message_forwarded_from_name" href="https://t.me/ntuzov/231"><span dir="auto">Николай Тузов</span></a></div>
+
+<div class="media_supported_cont"><div class="tgme_widget_message_text js-message_text" dir="auto"><tg-emoji emoji-id="5386539930132423187"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F92BB.png')"><b>💻</b></i></tg-emoji> <b>С чего начать изучать GoLang? - Ультимативный пост<br/><br/></b><a href="https://t.me/ntuzov/231" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Оригинальный пост</a><i> будет обновляться для сохранения актуальности. Репосты при этом не обновляются, поэтому не забывайте проверять оригинал.<br/><br/></i><b>Must have, нестареющая классика:<br/><br/></b>- <a href="https://go.dev/tour/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">A Tour of Go</a> - ресурс, с которого 100% надо начинать. Тут вас просто и быстро проведут по всем важным аспектам языка. Прохождение займёт ~4 часа часа, и после этого вы будете знать практически всё, что необходимо<br/>- <a href="https://go.dev/doc/effective_go" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Effective Go</a> - здесь вас научат не просто писать код, а делать это красиво и эффективно.<br/>- <i>Книга &quot;Язык программирования Go&quot;, Донован Алан А. А., Керниган Брайан У</i> - отличная книга, в которой подробно разобрано практически всё, что есть в языке, приведены примеры различных подводных камней и нюансов. Часто в книге объясняется, почему авторы языка сделали именно так, а не иначе. Авторы известные и авторитетные разработчики.<br/><br/><b>Другие интересные способы начать изучение:<br/><br/></b>- <a href="https://gobyexample.com/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Go by Example</a> - отличный набор простых и полезных примеров с комментариями<br/>- <a href="https://learnxinyminutes.com/docs/go/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Learn X in Y minutes</a> - оригинальный и интересный способ изучения языка - вам показывают большой кусок кода с комментариями, который быстро познакомит вас со всеми основами<br/>- <a href="https://roadmap.sh/golang/" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Go developer roadmap</a>, о котором я <a href="https://t.me/golang_digest/42" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">уже писал<br/></a> <br/><b>Другие ресурсы:<br/><br/></b>- <a href="https://www.youtube.com/@nikolay_tuzov" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Николай Тузов - GoLang</a> - YouTube канал с такими же ультимативными уроками по Go <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E298BA.png')"><b>☺️</b></i><br/>- <a href="https://t.me/golang_digest" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Golang Дайджест</a> - ТГ-канал с регулярными подборками материалов по Go<br/>- <a href="https://go101.org/article/101.html" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Go 101</a> - книга, сосредоточенная на синтаксисе / семантике языка, и на вещах связанных с runtime. Подойдет и новичкам, и опытным разработчикам - для более глубокого понимания. <br/>- <a href="https://go.dev/doc/code" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">How to Write Go Code</a> - пост с рекомендациями по написанию кода от авторов языка<br/>- <a href="https://p.umputun.com/2016/05/03/go-ili-nie-go" target="_blank" rel="noopener" onclick="return confirm('Open this link?\n\n'+this.href);">Go или не Go?</a> от Умпутуна из Radio-T<br/><br/><tg-emoji emoji-id="5219761574025108058"><i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/E29EA1.png')"><b>➡️</b></i></tg-emoji>Но самое главное - не забывайте, что теория это хорошо, но практика важнее. Пишите код, много кода. Только так вы научитесь хорошо писать на Go.<br/><br/><i>Если вы знаете другие крутые материалы, сервисы и т.п., пишите в комментариях. Самое интересное я буду добавлять в пост.<br/><br/></i><a href="?q=%23golang">#golang</a> <a href="?q=%23guides">#guides</a> <a href="?q=%23%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8">#подборки</a></div></div><div class="media_not_supported_cont"><div class="message_media_not_supported_wrap">
+  <div class="message_media_not_supported">
+    <div class="message_media_not_supported_label">Please open Telegram to view this post</div>
+    <a href="https://t.me/golang_news/141" class="message_media_view_in_telegram">VIEW IN TELEGRAM</a>
+  </div>
+</div></div>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">479</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/golang_news/141"><time datetime="2023-05-02T20:25:37+00:00" class="time">20:25</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div>
+    </section>
+  </div>
+</main>
+    
+    
+    
+
+
+    
+    
+    
+    
+  </body>
+</html>
+<!-- page generated in 108.09ms -->

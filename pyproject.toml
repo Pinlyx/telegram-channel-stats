@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram-channel-stats"
+version = "0.1.0"
+description = "Statistics for public Telegram channels from the public web preview: subscribers, views, reach and a benchmark. No API key, no login."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Pinlyx" }]
+keywords = ["telegram", "telegram channel", "analytics", "statistics", "scraper", "reach", "views", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+  "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/Pinlyx/telegram-channel-stats"
+Repository = "https://github.com/Pinlyx/telegram-channel-stats"
+Issues = "https://github.com/Pinlyx/telegram-channel-stats/issues"
+
+[project.scripts]
+tgstats = "tgstats.cli:main"
+
+[tool.setuptools]
+packages = ["tgstats"]
+
+[tool.setuptools.package-data]
+tgstats = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
